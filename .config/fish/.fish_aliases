@@ -1,0 +1,9 @@
+# Personal Alias
+alias o "open"
+alias cask "brew cask"
+alias .. "cd .."
+
+# https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/
+alias config '/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+config config --local status.showUntrackedFiles no
+
