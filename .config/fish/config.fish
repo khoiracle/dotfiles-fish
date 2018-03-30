@@ -4,6 +4,7 @@ source ~/.config/fish/.fish_variable
 # FZF Setup 
 set -U FZF_FIND_FILE_COMMAND 'pt --hidden -g ""'
 set -U FZF_COMPLETE 1
+set -U FZF_CTRL_T_COMMAND "command find -L \$dir -type f 2> /dev/null | sed '1d; s#^\./##'"
 
 # Tmux
 function fs -d "Switch Tmux session"
