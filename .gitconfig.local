@@ -1,0 +1,6 @@
+[user]
+	name = khoiracle
+	email = khoiracle@gmail.com
+	signingkey = 6D9BCE21
+[commit]
+	gpgsign = true

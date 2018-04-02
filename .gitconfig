@@ -15,6 +15,3 @@
   autosquash = true
 [include]
   path = ~/.gitconfig.local
-[user]
-	name = khoiracle
-	email = khoiracle@gmail.com
