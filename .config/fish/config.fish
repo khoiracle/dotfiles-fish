@@ -27,3 +27,8 @@ end
 
 # Rbenv
 status --is-interactive; and source (rbenv init -|psub)
+
+# sextant
+if type -q sextant
+  status --is-interactive; and source (sextant shell --type fish -|psub)
+end

@@ -1,0 +1,20 @@
+[push]
+  default = current
+[color]
+  ui = auto
+[core]
+  excludesfile = ~/.gitignore
+  autocrlf = input
+[merge]
+  ff = only
+[rerere]
+  enabled = 1
+[fetch]
+  prune = true
+[rebase]
+  autosquash = true
+[include]
+  path = ~/.gitconfig.local
+[user]
+	name = khoiracle
+	email = khoiracle@gmail.com
