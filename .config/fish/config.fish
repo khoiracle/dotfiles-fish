@@ -30,5 +30,5 @@ status --is-interactive; and source (rbenv init -|psub)
 
 # sextant
 if type -q sextant
-  status --is-interactive; and source (sextant shell --type fish -|psub)
+  status --is-interactive; and source (sextant shell --type fish --bind-to s -|psub)
 end
