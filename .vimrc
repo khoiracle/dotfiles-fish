@@ -37,6 +37,12 @@ nnoremap <Right> :echoe "Use l"<CR>
 nnoremap <Up> :echoe "Use k"<CR>
 nnoremap <Down> :echoe "Use j"<CR>
 
+" Hard mode turned on
+noremap h <NOP>
+noremap j <NOP>
+noremap k <NOP>
+noremap l <NOP>
+
 " Open new split panes to right and bottom, which feels more natural
 set splitbelow
 set splitright
