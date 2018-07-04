@@ -26,7 +26,9 @@ if type -q nvim > /dev/null 2>&1
 end
 
 # Rbenv
-status --is-interactive; and source (rbenv init -|psub)
+if type -q rbenv
+  status --is-interactive; and source (rbenv init -|psub)
+end
 
 # sextant
 if type -q sextant
