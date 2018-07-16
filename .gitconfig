@@ -14,5 +14,6 @@
   prune = true
 [rebase]
   autosquash = true
+  autostash = true
 [include]
   path = ~/.gitconfig.local
