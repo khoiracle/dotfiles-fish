@@ -6,6 +6,7 @@
 	excludesfile = ~/.gitignore_global
   autocrlf = input
 	editor = nvim
+	commentChar = %
 [merge]
   ff = only
 [rerere]
