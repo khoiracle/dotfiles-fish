@@ -1,3 +1,3 @@
 function dl
-    aria2c -c -x 4 $argv[1]
+    aria2c -c -x 4 --seed-time=0 $argv[1]
 end
