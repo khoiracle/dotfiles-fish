@@ -1,6 +1,9 @@
 source ~/.config/fish/.fish_aliases
 source ~/.config/fish/.fish_variable
 
+# Editor
+set -x EDITOR nvim
+
 # FZF Setup 
 set -U FZF_FIND_FILE_COMMAND 'pt --hidden -g ""'
 set -U FZF_COMPLETE 1
