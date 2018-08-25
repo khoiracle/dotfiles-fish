@@ -8,7 +8,6 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-surround'
 Plug 'itchyny/lightline.vim'
-Plug 'JamshedVesuna/vim-markdown-preview'
 call plug#end()
 
 " Set color scheme
