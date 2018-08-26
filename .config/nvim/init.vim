@@ -11,6 +11,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
 Plug 'SirVer/ultisnips'
+Plug 'Valloric/YouCompleteMe'
 call plug#end()
 
 " Set color scheme
@@ -64,3 +65,8 @@ let g:go_highlight_fields = 1
 let g:go_highlight_functions = 1
 let g:go_highlight_function_calls = 1
 let g:go_highlight_extra_types = 1
+
+" Ultisnipsst_select_completion = ['<C-n>', '<Down>']
+let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
+let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
+let g:ycm_key_list_accept_completion = ['<C-y>']
