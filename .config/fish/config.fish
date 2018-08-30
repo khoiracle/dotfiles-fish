@@ -33,7 +33,7 @@ if type -q rbenv
   status --is-interactive; and source (rbenv init -|psub)
 end
 
-# sextant
-if type -q sextant
-  status --is-interactive; and source (sextant shell --type fish --bind-to s -|psub)
+# compass
+if type -q compass
+  status --is-interactive; and source (compass shell --type fish --bind-to s -|psub)
 end
