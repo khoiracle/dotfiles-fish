@@ -9,6 +9,8 @@
 	commentChar = %
 [merge]
   ff = only
+[pull]
+  ff = only
 [rerere]
   enabled = 1
 [fetch]
