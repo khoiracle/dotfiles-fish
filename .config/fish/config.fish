@@ -1,6 +1,10 @@
 source ~/.config/fish/.fish_aliases
 source ~/.config/fish/.fish_variable
 
+# Y u no English
+set -x LANG 'en_US.UTF-8'
+set -x LC_ALL 'en_US.UTF-8'
+
 # Editor
 set -x EDITOR nvim
 
