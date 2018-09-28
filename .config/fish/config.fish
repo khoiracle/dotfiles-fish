@@ -25,6 +25,7 @@ set -x WORKSPACE "$HOME/Documents/Workspaces"
 set -x GOPATH "$WORKSPACE/go"
 set -x PATH $GOPATH/bin $PATH
 set -x PATH $HOME/.bin $PATH
+set -x PATH $HOME/bin $PATH
 
 # Remap vim to nvim
 if type -q nvim > /dev/null 2>&1
