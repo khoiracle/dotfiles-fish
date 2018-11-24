@@ -27,6 +27,9 @@ set -x PATH $GOPATH/bin $PATH
 set -x PATH $HOME/.bin $PATH
 set -x PATH $HOME/bin $PATH
 
+# https://github.com/khoi/go-git-get
+set -x GITPATH $WORKSPACE/Repositories/
+
 # Remap vim to nvim
 if type -q nvim > /dev/null 2>&1
   alias vi "nvim"
