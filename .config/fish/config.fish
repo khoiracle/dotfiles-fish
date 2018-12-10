@@ -19,7 +19,7 @@ function fs -d "Switch Tmux session"
 end
 
 # Convenience PATH
-set -x WORKSPACE "$HOME/Documents/Workspaces"
+set -x WORKSPACE "$HOME/Documents/Workspace"
 
 # Golang
 set -x GOPATH "$WORKSPACE/go"
