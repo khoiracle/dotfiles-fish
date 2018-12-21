@@ -36,6 +36,11 @@ if type -q nvim > /dev/null 2>&1
   alias vim "nvim"
 end
 
+# exa
+if type -q exa
+  alias ls "exa"
+end
+
 # Rbenv
 if type -q rbenv
   status --is-interactive; and source (rbenv init -|psub)
