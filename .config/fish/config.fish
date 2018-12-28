@@ -9,9 +9,10 @@ set -x LC_ALL 'en_US.UTF-8'
 set -x EDITOR nvim
 
 # FZF Setup 
-set -U FZF_FIND_FILE_COMMAND 'pt --hidden -g ""'
+set -U FZF_FIND_FILE_COMMAND 'fd --type file --color=always'
+set -U FZF_DEFAULT_OPTS "--ansi"
 set -U FZF_COMPLETE 1
-set -U FZF_CTRL_T_COMMAND "command find -L \$dir -type f 2> /dev/null | sed '1d; s#^\./##'"
+set -U FZF_CTRL_T_COMMAND "$FZF_DEFAULT_COMMAND"
 
 # Tmux
 function fs -d "Switch Tmux session"
