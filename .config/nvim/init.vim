@@ -22,10 +22,10 @@ color dracula
 set cb=unnamedplus
 
 " Faster grep using pt
-set grepprg=pt\ --nogroup\ --nocolor
+set grepprg=rg\ --color=never
 
 " CTRLP config
-let g:ctrlp_user_command = 'pt %s -l --nocolor -g ""'
+let g:ctrlp_user_command = 'rg %s --files --color=never --glob ""'
 let g:ctrlp_use_caching = 0
 
 " NERDTREE config
