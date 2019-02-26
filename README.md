@@ -2,7 +2,7 @@
 
 my personal nvim, tmux, fish configs. 
 
-the setup is documented on [My  macOS development setup](https://www.khoi.io/post/macos-development-setup/]
+the setup is documented on [My  macOS development setup](https://www.khoi.io/post/macos-development-setup/)
 
 ## Setup
 
