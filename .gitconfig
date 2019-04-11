@@ -13,7 +13,7 @@
   ff = only
 	default = current
 [rerere]
-  enabled = 1
+	enabled = true
 [fetch]
   prune = true
 [rebase]
