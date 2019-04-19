@@ -1,12 +1,13 @@
 [push]
 	default = current
 [color]
-  ui = auto
+	ui = true
 [core]
 	excludesfile = ~/.gitignore_global
   autocrlf = input
 	editor = nvim
 	commentChar = %
+	pager = diff-so-fancy | less --tabs=4 -RFX
 [merge]
   ff = only
 [pull]
