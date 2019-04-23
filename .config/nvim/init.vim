@@ -55,3 +55,4 @@ let g:go_highlight_extra_types = 1
 
 " Use deoplete.
 let g:deoplete#enable_at_startup = 1
+call deoplete#custom#option('omni_patterns', { 'go': '[^. *\t]\.\w*' })
