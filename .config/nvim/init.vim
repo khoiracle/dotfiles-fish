@@ -52,3 +52,6 @@ let g:go_highlight_fields = 1
 let g:go_highlight_functions = 1
 let g:go_highlight_function_calls = 1
 let g:go_highlight_extra_types = 1
+
+" Use deoplete.
+let g:deoplete#enable_at_startup = 1
