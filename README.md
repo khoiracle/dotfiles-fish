@@ -1,6 +1,8 @@
 ## dotfiles
 
-my personal nvim, tmux, fish configs. 
+- fish
+- tmux
+- neovim 
 
 the setup is documented on [My  macOS development setup](https://www.khoi.io/post/macos-development-setup/)
 
