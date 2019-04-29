@@ -34,3 +34,7 @@ RUN add-apt-repository ppa:neovim-ppa/stable && apt-get update && apt-get instal
 
 # fish
 RUN add-apt-repository ppa:fish-shell/release-3 && apt-get update && apt-get install fish -y
+RUN chsh -s /usr/bin/fish
+
+# tmux
+ENV TERM screen-256color
