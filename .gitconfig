@@ -1,20 +1,20 @@
 [push]
-	default = current
+  default = current
 [color]
-	ui = true
+  ui = true
 [core]
-	excludesfile = ~/.gitignore_global
+  excludesfile = ~/.gitignore_global
   autocrlf = input
-	editor = nvim
-	commentChar = %
-	pager = diff-so-fancy | less --tabs=4 -RFX
+  editor = nvim
+  commentChar = %
+  pager = diff-so-fancy | less --tabs=4 -RFX
 [merge]
   ff = only
 [pull]
   ff = only
-	default = current
+  default = current
 [rerere]
-	enabled = true
+  enabled = true
 [fetch]
   prune = true
 [rebase]
