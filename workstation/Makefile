@@ -12,7 +12,7 @@ run: kill
 	docker run -it -h ${NAME} -d -p 2222:2222 -p 60000-60010:60000-60010/udp --rm -v $(HOME)/.ssh:/home/${USERNAME}/.ssh --cap-add=SYS_PTRACE --security-opt seccomp=unconfined --privileged --name ${NAME} ${DOCKERHUB_USERNAME}/${NAME}:${GITCOMMIT}
 
 ssh:
-	mosh --no-init --ssh="ssh -o StrictHostKeyChecking=no -p 2222" root@localhost
+	mosh --no-init --ssh="ssh -o StrictHostKeyChecking=no -p 2222" root@localhost -- tmux new-session -AD -s ${USERNAME}
 
 kill:
 	docker kill workstation | true
