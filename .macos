@@ -249,6 +249,10 @@ defaults write com.apple.SoftwareUpdate AutomaticCheckEnabled -bool true
 # Turn on app auto-update
 defaults write com.apple.commerce AutoUpdate -bool true
 
+# Wifi settings
+sudo /System/Library/PrivateFrameworks/Apple80211.framework/Versions/A/Resources/airport prefs joinMode=Strongest
+sudo /System/Library/PrivateFrameworks/Apple80211.framework/Versions/A/Resources/airport prefs JoinModeFallback=KeepLooking
+
 for app in "Activity Monitor" \
 	"Address Book" \
 	"Calendar" \
