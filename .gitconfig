@@ -1,5 +1,5 @@
 [push]
-  default = current
+	default = current
 [color]
   ui = true
 [core]
@@ -12,7 +12,7 @@
   ff = only
 [pull]
   ff = only
-  default = current
+	default = current
 [rerere]
   enabled = true
 [fetch]
