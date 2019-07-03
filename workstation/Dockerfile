@@ -2,7 +2,6 @@
 FROM ubuntu:18.10
 ENV DEBIAN_FRONTEND=noninteractive
 
-
 RUN apt-get update -qq && apt-get upgrade -y 
 
 RUN apt-get install -qq -y \
@@ -39,7 +38,7 @@ RUN apt-get install -qq -y \
 # ssh
 RUN mkdir /run/sshd
 RUN sed 's@session\s*required\s*pam_loginuid.so@session optional pam_loginuid.so@g' -i /etc/pam.d/sshd 
-RUN sed 's/#Port 2222/Port 3222/' -i /etc/ssh/sshd_config
+RUN sed 's/#Port 22/Port 2222/' -i /etc/ssh/sshd_config
 
 # neovim
 RUN add-apt-repository ppa:neovim-ppa/stable && apt-get install neovim -y
