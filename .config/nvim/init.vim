@@ -11,6 +11,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'jiangmiao/auto-pairs'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'tpope/vim-commentary'
 call plug#end()
 
 " Set color scheme
