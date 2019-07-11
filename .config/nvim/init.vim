@@ -21,7 +21,7 @@ color dracula
 " Sync vim clipboard to desktop
 set cb=unnamedplus
 
-" Faster grep using pt
+" Faster grep using ripgrep
 set grepprg=rg\ --color=never
 
 " CTRLP config
