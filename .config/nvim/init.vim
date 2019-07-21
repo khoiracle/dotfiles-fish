@@ -28,6 +28,7 @@ set grepprg=rg\ --color=never
 
 " CTRLP config
 let g:ctrlp_user_command = 'rg %s --files --color=never --glob ""'
+let g:ctrlp_working_path_mode = 'c'
 let g:ctrlp_use_caching = 0
 
 " NERDTREE config
