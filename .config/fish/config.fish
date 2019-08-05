@@ -51,4 +51,3 @@ end
 if type -q compass
   status --is-interactive; and source (compass shell --type fish --bind-to s -|psub)
 end
-[ -f /usr/local/share/autojump/autojump.fish ]; and source /usr/local/share/autojump/autojump.fish
