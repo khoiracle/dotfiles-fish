@@ -1,5 +1,7 @@
+if test -e ~/.config/fish/.fish_variable
+  source ~/.config/fish/.fish_variable
+end
 source ~/.config/fish/.fish_aliases
-source ~/.config/fish/.fish_variable
 
 # Y u no English
 set -x LANG 'en_US.UTF-8'
