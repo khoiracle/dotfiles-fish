@@ -3,6 +3,7 @@ set packpath+=~/.vim
 source ~/.vimrc
 
 call plug#begin('~/.local/share/nvim/plugged')
+Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-surround'
@@ -17,6 +18,7 @@ call plug#end()
 
 " Set color scheme
 syntax on
+color dracula
 
 " Sync vim clipboard to desktop
 set cb=unnamedplus
