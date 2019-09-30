@@ -44,11 +44,6 @@ if type -q rbenv
   status --is-interactive; and source (rbenv init -|psub)
 end
 
-# Nodenv
-if type -q nodenv
-  status --is-interactive; and source (nodenv init -|psub)
-end
-
 # compass
 if type -q compass
   status --is-interactive; and source (compass shell --type fish --bind-to s -|psub)
