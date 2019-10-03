@@ -314,7 +314,7 @@ defaults write com.apple.mail SpellCheckingBehavior -string "NoSpellCheckingEnab
 # Disable the annoying line marks
 defaults write com.apple.Terminal ShowLineMarks -int 0
 
-# Install the Solarized Dark theme for iTerm
+# Install the Dracula theme for iTerm
 open "${HOME}/dracula/Dracula.terminal"
 
 ###############################################################################
