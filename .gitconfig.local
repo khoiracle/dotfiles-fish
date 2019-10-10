@@ -1,6 +1,6 @@
 [user]
-	name = khoi
-	email = khoiracle@gmail.com
-	signingkey = 6D9BCE21
+  name = khoi
+  email = khoiracle@gmail.com
+	signingkey = F47C65E640FCC9C5
 [commit]
 	gpgsign = true
