@@ -1,6 +1,6 @@
 source ~/.antigen.zsh
 
-# Load the oh-my-zsh's library.
+# antigen setup
 antigen use oh-my-zsh
 
 antigen bundle git
@@ -15,3 +15,18 @@ antigen bundle mafredri/zsh-async
 antigen bundle sindresorhus/pure
 
 antigen apply
+
+# Editor
+export EDITOR="vim"
+
+# Nvim
+if type nvim > /dev/null; then
+  alias vi="nvim"
+  alias vim="nvim"
+fi
+
+# compass
+if type compass > /dev/null; then
+  eval "$(compass shell)"
+
+fi
