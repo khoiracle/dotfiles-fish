@@ -9,7 +9,6 @@ antigen bundle z
 
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-autosuggestions
-antigen bundle zsh-users/zsh-completions
 
 antigen bundle mafredri/zsh-async
 antigen bundle sindresorhus/pure
@@ -17,6 +16,7 @@ antigen bundle sindresorhus/pure
 antigen apply
 
 # History size
+setopt HIST_IGNORE_SPACE # command without history when prefix with Space
 HISTSIZE=100000
 SAVEHIST=$HISTSIZE
 
