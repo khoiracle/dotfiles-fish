@@ -16,6 +16,10 @@ antigen bundle sindresorhus/pure
 
 antigen apply
 
+# History size
+HISTSIZE=100000
+SAVEHIST=$HISTSIZE
+
 # Editor
 export EDITOR="vim"
 
