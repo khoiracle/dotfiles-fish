@@ -19,6 +19,9 @@ antigen apply
 # Editor
 export EDITOR="vim"
 
+# PATH
+export PATH=~/.bin:$PATH
+
 # Nvim
 if type nvim > /dev/null; then
   alias vi="nvim"
@@ -28,5 +31,4 @@ fi
 # compass
 if type compass > /dev/null; then
   eval "$(compass shell)"
-
 fi
