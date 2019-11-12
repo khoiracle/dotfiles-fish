@@ -32,3 +32,8 @@ fi
 if type compass > /dev/null; then
   eval "$(compass shell)"
 fi
+
+# fzf
+if type fzf > /dev/null; then
+  [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+fi
