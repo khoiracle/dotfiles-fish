@@ -11,7 +11,6 @@ antigen bundle git
 antigen bundle pip
 antigen bundle z
 
-antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-completions
 
 antigen bundle mafredri/zsh-async
