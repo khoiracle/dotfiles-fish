@@ -48,3 +48,6 @@ fi
 if type fzf > /dev/null; then
   [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 fi
+
+# homebrew no update
+export HOMEBREW_NO_AUTO_UPDATE=1
