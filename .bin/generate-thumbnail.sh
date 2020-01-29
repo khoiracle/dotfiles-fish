@@ -10,7 +10,7 @@ echo "Generating thumbnail for $1"
 
 if test -f "$1.jpeg"; then
   echo "$1.jpeg exist, nothing todo. bailing."
-  exit 1
+  exit 0
 fi
 
 vcs -c 4 -n 20 -ds -j -A "$1" -o "$1.jpeg"
