@@ -1,6 +1,6 @@
 source ~/.antigen.zsh
 
-source ~/.zsh_private_env
+source ~/.zsh_local # local configs, private envs
 
 # lang
 export LANG="en_US.UTF-8"
