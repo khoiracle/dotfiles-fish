@@ -12,6 +12,7 @@ antigen use oh-my-zsh
 antigen bundle git
 antigen bundle pip
 antigen bundle z
+antigen bundle bundler
 
 antigen bundle zsh-users/zsh-completions
 
