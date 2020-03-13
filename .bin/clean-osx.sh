@@ -9,17 +9,6 @@ if [ $? -ne 0 ]; then
   exit 1
 fi
 
-bytesToHuman() {
-    b=${1:-0}; d=''; s=0; S=(Bytes {K,M,G,T,E,P,Y,Z}iB)
-    while ((b > 1024)); do
-        d="$(printf ".%02d" $((b % 1024 * 100 / 1024)))"
-        b=$((b / 1024))
-        (( s++ ))
-    done
-    echo "$b$d ${S[$s]} of space was cleaned up"
-}
-
-
 # Ask for the administrator password upfront
 sudo -v
 
@@ -27,8 +16,6 @@ HOST=$( whoami )
 
 # Keep-alive sudo until the script has finished
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
-
-oldAvailable=$(df / | tail -1 | awk '{print $4}')
 
 echo 'Empty the Trash on all mounted volumes and the main HDD...'
 sudo rm -rfv /Volumes/*/.Trashes/* &>/dev/null
@@ -109,8 +96,3 @@ echo 'Purge inactive memory...'
 sudo purge
 
 echo 'Success!'
-
-newAvailable=$(df / | tail -1 | awk '{print $4}')
-count=$((oldAvailable - newAvailable))
-#count=$(( $count * 512))
-bytesToHuman $count
