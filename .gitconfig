@@ -23,7 +23,3 @@
   path = ~/.gitconfig.local
 [alias]
   recent = ! git for-each-ref --sort=-committerdate --count=15 --format='%(authorname),%(color:bold yellow)%(refname:short)%(color:reset) (%(color:bold magenta)%(committerdate:relative)%(color:reset)) %(color:cyan)%(objectname:short)%(color:reset) - %(color:dim white)%(contents:subject)%(color:reset)' refs/heads/ | cut -d, -f2-
-  ignore = "!gi() { curl -sL https://www.gitignore.io/api/$@ ;}; gi"
-	pushall = !git remote | xargs -L1 git push --all
-
-
