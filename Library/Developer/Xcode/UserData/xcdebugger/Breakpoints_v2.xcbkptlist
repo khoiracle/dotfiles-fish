@@ -17,7 +17,7 @@
                <BreakpointActionProxy
                   ActionExtensionID = "Xcode.BreakpointAction.Log">
                   <ActionContent
-                     message = "--- dealloc @(id)[$arg1 description]@ @(id)[$arg1 title]@"
+                     message = "&#x2699;&#xfe0f; dealloc @(id)[$arg1 description]@ @(id)[$arg1 title]@"
                      conveyanceType = "0">
                   </ActionContent>
                </BreakpointActionProxy>
@@ -55,14 +55,8 @@
                <BreakpointActionProxy
                   ActionExtensionID = "Xcode.BreakpointAction.Log">
                   <ActionContent
-                     message = "--- viewDidLoad @(id)[$arg1 description]@ @(id)[$arg1 title]@"
+                     message = "&#x2699;&#xfe0f; viewDidLoad @(id)[$arg1 description]@ @(id)[$arg1 title]@"
                      conveyanceType = "0">
-                  </ActionContent>
-               </BreakpointActionProxy>
-               <BreakpointActionProxy
-                  ActionExtensionID = "Xcode.BreakpointAction.Sound">
-                  <ActionContent
-                     soundName = "Tink">
                   </ActionContent>
                </BreakpointActionProxy>
             </Actions>
