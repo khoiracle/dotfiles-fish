@@ -18,6 +18,7 @@ antigen bundle zsh-users/zsh-completions
 
 antigen bundle mafredri/zsh-async
 antigen bundle sindresorhus/pure
+antigen bundle wfxr/forgit
 
 antigen apply
 
