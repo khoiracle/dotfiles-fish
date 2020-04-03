@@ -17,7 +17,6 @@ antigen bundle bundler
 antigen bundle zsh-users/zsh-completions
 
 antigen bundle mafredri/zsh-async
-antigen bundle sindresorhus/pure
 antigen bundle wfxr/forgit
 
 antigen apply
@@ -55,3 +54,6 @@ fi
 
 # homebrew no update
 export HOMEBREW_NO_AUTO_UPDATE=1
+
+# starship
+eval "$(starship init zsh)"
