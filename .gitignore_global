@@ -27,3 +27,6 @@ Temporary Items
 
 # IDEs
 .idea
+
+# Bundler
+vendor/
