@@ -1,6 +1,6 @@
 ## dotfiles
 
-- fish
+- zsh
 - tmux
 - neovim 
 
