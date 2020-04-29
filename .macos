@@ -314,9 +314,11 @@ defaults write com.apple.mail SpellCheckingBehavior -string "NoSpellCheckingEnab
 # Disable the annoying line marks
 defaults write com.apple.Terminal ShowLineMarks -int 0
 
-# Install the theme for terminal
+# Install color schemes for terminal
 curl https://raw.githubusercontent.com/nathanbuchar/atom-one-dark-terminal/master/scheme/terminal/One%20Dark.terminal -o /tmp/one_dark.terminal
 open /tmp/one_dark.terminal
+curl https://raw.githubusercontent.com/morhetz/gruvbox-contrib/master/osx-terminal/Gruvbox-dark.terminal -o /tmp/gruv.terminal
+open /tmp/gruv.terminal
 
 ###############################################################################
 # Time Machine                                                                #
