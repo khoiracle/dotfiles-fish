@@ -12,7 +12,7 @@
         htop
         neovim
         nodejs
-        python
+        python3
         ripgrep
         ruby
         starship
