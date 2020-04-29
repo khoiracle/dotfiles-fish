@@ -1,6 +1,6 @@
 source ~/.antigen.zsh
 
-source ~/.zsh_local # local configs, private envs
+[ -f ~/.zsh_local ] && source ~/.zsh_local # local configs, private envs
 
 # lang
 export LANG="en_US.UTF-8"
@@ -18,6 +18,9 @@ antigen bundle zsh-users/zsh-completions
 antigen bundle mafredri/zsh-async
 
 antigen apply
+
+# nix
+[ -f ~/.nix-profile/etc/profile.d/nix.sh ] && source /Users/khoi/.nix-profile/etc/profile.d/nix.sh
 
 # Aliases
 alias o="open"
@@ -54,4 +57,7 @@ fi
 export HOMEBREW_NO_AUTO_UPDATE=1
 
 # starship
-eval "$(starship init zsh)"
+if type starship > /dev/null; then
+  eval "$(starship init zsh)"
+fi
+
