@@ -4,7 +4,7 @@ alfred
 adguard
 jetbrains-toolbox
 docker
-font-jetbrains-mono
+homebrew/cask-fonts/font-jetbrains-mono
 vlc
 wireguard
 sf-symbols
