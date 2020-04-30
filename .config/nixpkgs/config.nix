@@ -7,6 +7,7 @@
         aria2
         ffmpeg
         git
+        gitAndTools.git-extras
         gnupg
         go
         htop
