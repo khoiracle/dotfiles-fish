@@ -6,6 +6,7 @@
       paths = [
         aria2
         ffmpeg
+        fzf
         git
         gitAndTools.git-extras
         gnupg

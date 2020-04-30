@@ -49,8 +49,9 @@ if type compass > /dev/null; then
 fi
 
 # fzf
-if type fzf > /dev/null; then
-  [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+if [ -n "${commands[fzf-share]}" ]; then
+  source "$(fzf-share)/key-bindings.zsh"
+  source "$(fzf-share)/completion.zsh"
 fi
 
 # homebrew no update
