@@ -20,7 +20,7 @@ antigen bundle mafredri/zsh-async
 antigen apply
 
 # nix
-[ -f ~/.nix-profile/etc/profile.d/nix.sh ] && source /Users/khoi/.nix-profile/etc/profile.d/nix.sh
+[ -f ~/.nix-profile/etc/profile.d/nix.sh ] && source ~/.nix-profile/etc/profile.d/nix.sh
 
 # Aliases
 alias o="open"
