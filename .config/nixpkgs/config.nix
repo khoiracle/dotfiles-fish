@@ -21,6 +21,7 @@
         tldr
         tmux
         youtube-dl
+        zsh
       ];
     };
   };
