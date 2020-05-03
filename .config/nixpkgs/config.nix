@@ -14,6 +14,7 @@
         htop
         neovim
         nodejs
+        parallel
         python3
         ripgrep
         ruby
