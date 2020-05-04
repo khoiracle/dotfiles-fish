@@ -22,6 +22,7 @@
         starship
         tldr
         tmux
+        tree
         youtube-dl
         zsh
       ];
