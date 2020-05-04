@@ -20,6 +20,7 @@
         ripgrep
         ruby
         starship
+        swiftformat
         tldr
         tmux
         youtube-dl
