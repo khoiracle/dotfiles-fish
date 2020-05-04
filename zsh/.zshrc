@@ -21,7 +21,6 @@ antigen apply
 
 # Aliases
 alias o="open"
-alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 # History size
 setopt HIST_IGNORE_SPACE # command without history when prefix with Space
