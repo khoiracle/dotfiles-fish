@@ -4,17 +4,13 @@
 - tmux
 - neovim 
 
-the setup is documented on [My  macOS development setup](https://www.khoi.io/post/macos-development-setup/)
+The setup is documented on [My  macOS development setup](https://www.khoi.io/post/macos-development-setup/)
 
 ## Setup
 
+I use [GNU Stow](https://www.gnu.org/software/stow/) to manage these dotfiles.
+
 ```bash
-alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
-echo ".cfg" >> .gitignore
-git clone --bare git@github.com:khoi/dotfiles.git $HOME/.cfg  
-config checkout
+git clone git@github.com:khoi/dotfiles.git ~/dotfiles
+stow bin git misc nix tmux vim xcode zsh
 ```
-
-## References
-
-- https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/
