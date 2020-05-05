@@ -12,6 +12,7 @@
         gnupg
         go
         htop
+        jq
         neovim
         nodejs
         parallel
