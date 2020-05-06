@@ -27,6 +27,10 @@ setopt HIST_IGNORE_SPACE # command without history when prefix with Space
 HISTSIZE=100000
 SAVEHIST=$HISTSIZE
 
+# Load nix
+
+[ -f ~/.nix-profile/etc/profile.d/nix.sh ] && source ~/.nix-profile/etc/profile.d/nix.sh
+
 # Editor
 export EDITOR="vim"
 
