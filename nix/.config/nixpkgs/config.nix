@@ -5,6 +5,7 @@
       name = "my-packages";
       paths = [
         aria2
+        cmake
         ffmpeg
         fzf
         git
