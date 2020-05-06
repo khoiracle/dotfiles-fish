@@ -21,6 +21,7 @@
         ripgrep
         ruby
         starship
+        stow
         tldr
         tmux
         tree
