@@ -10,6 +10,7 @@
         fzf
         git
         gitAndTools.git-extras
+        gitAndTools.hub
         gnupg
         go
         htop
