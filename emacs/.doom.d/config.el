@@ -34,6 +34,16 @@
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
 (setq display-line-numbers-type t)
 
+;; Reduce which-key delay
+(require 'which-key)
+(setq which-key-idle-delay 0.01)
+
+;; Full screen on launch
+(add-to-list 'default-frame-alist '(fullscreen . maximized))
+
+; Disable exit prompt
+(setq confirm-kill-emacs nil)
+
 
 ;; Here are some additional functions/macros that could help you configure Doom:
 ;;
