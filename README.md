@@ -2,7 +2,7 @@
 
 - zsh
 - tmux
-- neovim 
+- emacs
 
 The setup is documented on [My  macOS development setup](https://www.khoi.io/post/macos-development-setup/)
 
