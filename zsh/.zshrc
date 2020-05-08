@@ -46,11 +46,6 @@ if type nvim > /dev/null; then
   alias vim="nvim"
 fi
 
-# compass
-if type compass > /dev/null; then
-  eval "$(compass shell)"
-fi
-
 # fzf
 if [ -n "${commands[fzf-share]}" ]; then
   source "$(fzf-share)/key-bindings.zsh"
