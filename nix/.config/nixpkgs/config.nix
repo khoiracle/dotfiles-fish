@@ -18,8 +18,7 @@
         neovim
         nodejs
         parallel
-        python38
-        python38Packages.pip
+        (python38.withPackages (ps: with ps; [ pip setuptools ]))
         ripgrep
         ruby
         starship
