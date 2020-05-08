@@ -37,9 +37,6 @@ export EDITOR="vim"
 # PATH
 export PATH=~/.bin:$PATH
 
-# emacs bin
-export PATH=~/.emacs.d/bin/:$PATH
-
 # Nvim
 if type nvim > /dev/null; then
   alias vi="nvim"
