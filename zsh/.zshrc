@@ -55,6 +55,8 @@ fi
 if [ -n "${commands[fzf-share]}" ]; then
   source "$(fzf-share)/key-bindings.zsh"
   source "$(fzf-share)/completion.zsh"
+  export FZF_DEFAULT_COMMAND='rg --files --hidden --follow --no-ignore-vcs'
+  export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 fi
 
 # homebrew no update
@@ -65,3 +67,5 @@ if type starship > /dev/null; then
   eval "$(starship init zsh)"
 fi
 
+# ghq https://github.com/x-motemen/ghq
+export GHQ_ROOT=~/code
