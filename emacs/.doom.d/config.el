@@ -41,7 +41,7 @@
 ;; Full screen on launch
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
 
-; Disable exit prompt
+;; Disable exit prompt
 (setq confirm-kill-emacs nil)
 
 ;; Here are some additional functions/macros that could help you configure Doom:
@@ -60,3 +60,7 @@
 ;;
 ;; You can also try 'gd' (or 'C-c g d') to jump to their definition and see how
 ;; they are implemented.
+
+;; Change ivy completion style
+(setq ivy-re-builders-alist
+      '((t . ivy--regex-fuzzy)))
