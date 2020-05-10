@@ -34,6 +34,10 @@ SAVEHIST=$HISTSIZE
 # Editor
 export EDITOR="vim"
 
+# vi mode
+bindkey -v
+export KEYTIMEOUT=1
+
 # PATH
 export PATH=~/.bin:$PATH
 
