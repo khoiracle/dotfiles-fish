@@ -19,6 +19,7 @@
         nodejs
         parallel
         (python38.withPackages (ps: with ps; [ pip setuptools ]))
+        reattach-to-user-namespace
         ripgrep
         ruby
         starship
