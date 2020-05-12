@@ -65,3 +65,6 @@ fi
 
 # ghq https://github.com/x-motemen/ghq
 export GHQ_ROOT=~/code
+
+# npm prefix 
+export PATH=~/npm_packages/bin:$PATH
