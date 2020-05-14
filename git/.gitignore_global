@@ -30,3 +30,6 @@ Temporary Items
 
 # Bundler
 vendor/
+
+# tmp
+tmp/
