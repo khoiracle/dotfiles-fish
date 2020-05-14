@@ -1,25 +1,11 @@
-hs.hotkey.bind({"cmd", "ctrl"}, "h", function()
-  local win = hs.window.focusedWindow()
-  local f = win:frame()
-  local screen = win:screen()
-  local max = screen:frame()
+hyper = {"ctrl", "cmd"}
 
-  f.x = max.x
-  f.y = max.y
-  f.w = max.w / 2
-  f.h = max.h
-  win:setFrame(f)
-end)
+-- Configurations
+hs.window.animationDuration = 0
 
-hs.hotkey.bind({"cmd", "ctrl"}, "l", function()
-  local win = hs.window.focusedWindow()
-  local f = win:frame()
-  local screen = win:screen()
-  local max = screen:frame()
+-- Spoons
+hs.loadSpoon("ReloadConfiguration")
+spoon.ReloadConfiguration:start()
 
-  f.x = max.x + (max.w / 2)
-  f.y = max.y
-  f.w = max.w / 2
-  f.h = max.h
-  win:setFrame(f)
-end)
+require "windows" -- Window management
+
