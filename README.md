@@ -11,6 +11,6 @@ The setup is documented on [My  macOS development setup](https://www.khoi.io/
 I use [GNU Stow](https://www.gnu.org/software/stow/) to manage these dotfiles.
 
 ```bash
-git clone git@github.com:khoi/dotfiles.git ~/dotfiles
+git clone git@github.com:khoi/dotfiles.git ~/dotfiles && cd $_
 ls -d1 */ | xargs stow
 ```
