@@ -8,5 +8,6 @@ hs.loadSpoon("ReloadConfiguration")
 spoon.ReloadConfiguration:start()
 
 require "windows" -- Window management
+require "watchers" -- Watchers for system event
 
 
