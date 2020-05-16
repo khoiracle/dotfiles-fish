@@ -1,7 +1,10 @@
-hyper = {"ctrl", "cmd"}
+-- Custom modules
+require "watchers" -- Watchers for system event
+require "appswitch" -- Quick app switch
 
 -- Configurations
 hs.window.animationDuration = 0
+hyper = {"ctrl", "cmd"}
 
 -- Spoons
 hs.loadSpoon("ReloadConfiguration")
@@ -16,6 +19,7 @@ spoon.MiroWindowsManager:bindHotkeys({
   fullscreen = {hyper, "f"}
 })
 
--- Custom modules
-require "watchers" -- Watchers for system event
-require "appswitch" -- Quick app switch
+
+hs.hotkey.bind(hyper, 't', hs.fnutils.partial(toggleApplication, "Terminal"))
+hs.hotkey.bind(hyper, 'c', hs.fnutils.partial(toggleApplication, "Google Chrome"))
+hs.hotkey.bind(hyper, 'x', hs.fnutils.partial(toggleApplication, "Xcode"))
