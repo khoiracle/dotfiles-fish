@@ -18,3 +18,4 @@ spoon.MiroWindowsManager:bindHotkeys({
 
 -- Custom modules
 require "watchers" -- Watchers for system event
+require "appswitch" -- Quick app switch
