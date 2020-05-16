@@ -11,6 +11,9 @@ hs.loadSpoon("ReloadConfiguration")
 hs.loadSpoon("MiroWindowsManager")
 
 spoon.ReloadConfiguration:start()
+
+-- Window management
+spoon.MiroWindowsManager.fullScreenSizes = {1}
 spoon.MiroWindowsManager:bindHotkeys({
   up = {hyper, "k"},
   right = {hyper, "l"},
@@ -18,7 +21,6 @@ spoon.MiroWindowsManager:bindHotkeys({
   left = {hyper, "h"},
   fullscreen = {hyper, "f"}
 })
-
 
 hs.hotkey.bind(hyper, 't', hs.fnutils.partial(toggleApplication, "Terminal"))
 hs.hotkey.bind(hyper, 'c', hs.fnutils.partial(toggleApplication, "Google Chrome"))
