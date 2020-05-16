@@ -11,6 +11,7 @@ cask "homebrew/cask-fonts/font-jetbrains-mono"
 cask "vlc"
 cask "sf-symbols"
 cask "hammerspoon"
+cask "Alacritty"
 
 # GUI apps from Appstore
 mas "1Password", id: 1333542190

@@ -22,6 +22,6 @@ spoon.MiroWindowsManager:bindHotkeys({
   fullscreen = {hyper, "f"}
 })
 
-hs.hotkey.bind(hyper, 't', hs.fnutils.partial(toggleApplication, "Terminal"))
+hs.hotkey.bind(hyper, 't', hs.fnutils.partial(toggleApplication, "Alacritty"))
 hs.hotkey.bind(hyper, 'c', hs.fnutils.partial(toggleApplication, "Google Chrome"))
 hs.hotkey.bind(hyper, 'x', hs.fnutils.partial(toggleApplication, "Xcode"))
