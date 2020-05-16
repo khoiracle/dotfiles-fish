@@ -4,7 +4,7 @@ require "appswitch" -- Quick app switch
 
 -- Configurations
 hs.window.animationDuration = 0
-hyper = {"ctrl", "cmd"}
+hyper = {"ctrl", "alt"}
 
 -- Spoons
 hs.loadSpoon("ReloadConfiguration")
