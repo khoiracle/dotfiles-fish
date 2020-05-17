@@ -15,7 +15,12 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'dracula/vim', { 'as': 'dracula' }
 call plug#end()
 
-" fzf key bindings
+" lightline
+let g:lightline = {
+      \ 'colorscheme': 'wombat',
+      \ }
+
+""" fzf key bindings
 nnoremap <silent> <Leader><Space> :Files<CR>
 nnoremap <silent> <Leader>f :Rg<CR>
 
