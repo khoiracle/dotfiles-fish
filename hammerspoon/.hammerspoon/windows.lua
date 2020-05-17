@@ -5,7 +5,7 @@ function moveWindow(x, y, w, h)
   local max = screen:frame()
 
   f.x = max.w * x + max.x
-  f.y = max.h * y
+  f.y = max.h * y + max.y
   f.w = max.w * w
   f.h = max.h * h
   win:setFrame(f)
