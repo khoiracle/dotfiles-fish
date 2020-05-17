@@ -3,7 +3,8 @@ set packpath+=~/.vim
 source ~/.vimrc
 
 call plug#begin('~/.local/share/nvim/plugged')
-Plug 'ctrlpvim/ctrlp.vim'
+Plug 'junegunn/fzf'
+Plug 'junegunn/fzf.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-dispatch'
@@ -13,6 +14,10 @@ Plug 'tpope/vim-commentary'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'dracula/vim', { 'as': 'dracula' }
 call plug#end()
+
+" fzf key bindings
+nnoremap <silent> <Leader><Space> :Files<CR>
+nnoremap <silent> <Leader>f :Rg<CR>
 
 " Gruvbox
 colorscheme dracula
@@ -25,14 +30,6 @@ syntax on
 
 " Sync vim clipboard to desktop
 set cb=unnamedplus
-
-" Faster grep using ripgrep
-set grepprg=rg\ --color=never
-
-" CTRLP config
-let g:ctrlp_user_command = 'rg %s --files --hidden --color=never --glob ""'
-let g:ctrlp_use_caching = 0
-let g:ctrlp_working_path_mode = 'ra'
 
 " NERDTREE config
 autocmd StdinReadPre * let s:std_in=1
