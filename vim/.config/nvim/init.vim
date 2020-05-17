@@ -8,24 +8,20 @@ Plug 'junegunn/fzf.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-dispatch'
-Plug 'itchyny/lightline.vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-commentary'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'vim-airline/vim-airline'
 call plug#end()
-
-" lightline
-let g:lightline = {
-      \ 'colorscheme': 'wombat',
-      \ }
 
 """ fzf key bindings
 nnoremap <silent> <Leader><Space> :Files<CR>
 nnoremap <silent> <Leader>f :Rg<CR>
 
-" Gruvbox
+" dracula
 colorscheme dracula
+let g:airline_theme='dracula'
 
 " True color
 set termguicolors
