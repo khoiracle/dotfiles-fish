@@ -14,6 +14,9 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'morhetz/gruvbox'
 call plug#end()
 
+" True color
+set termguicolors
+
 " Set color scheme
 syntax on
 
