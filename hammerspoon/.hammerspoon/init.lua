@@ -8,6 +8,12 @@ hs.window.animationDuration = 0
 hyper = {"ctrl", "alt"}
 shiftHyper = {"ctrl", "alt" , "shift"}
 
+appsRequiresUSInput = { 
+  ['Alacritty']= true, 
+  ['Terminal']= true, 
+  ['Xcode']= true 
+}
+
 -- Spoons
 hs.loadSpoon("ReloadConfiguration")
 spoon.ReloadConfiguration:start()
