@@ -13,7 +13,9 @@ function muteWhenSwitchingAudioDevice(eventType)
     return
   end
   local output = hs.audiodevice.defaultOutputDevice()
-  output:setMuted(true)
+  if (output:name() == "MacBook Pro Speakers") then
+    output:setMuted(true)
+  end
 end
 
 hs.audiodevice.watcher.setCallback(muteWhenSwitchingAudioDevice)
