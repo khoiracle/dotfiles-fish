@@ -1,12 +1,6 @@
 env:
   TERM: xterm-256color
 
-window:
-  padding:
-    x: 4
-    y: 4
-  decorations: none
-
 font:
   normal:
     family: Jetbrains Mono
