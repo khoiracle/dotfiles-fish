@@ -1,11 +1,12 @@
-function muteOnWake(eventType)
+function systemDidWake(eventType)
   if (eventType == hs.caffeinate.watcher.systemDidWake) then
     local output = hs.audiodevice.defaultOutputDevice()
     output:setMuted(true)
+    hs.keycodes.currentSourceID("com.apple.keylayout.US")
   end
 end
 
-caffeinateWatcher = hs.caffeinate.watcher.new(muteOnWake)
+caffeinateWatcher = hs.caffeinate.watcher.new(systemDidWake)
 caffeinateWatcher:start()
 
 function muteWhenSwitchingAudioDevice(eventType)
