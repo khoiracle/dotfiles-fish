@@ -3,7 +3,7 @@ set packpath+=~/.vim
 source ~/.vimrc
 
 call plug#begin('~/.local/share/nvim/plugged')
-Plug 'junegunn/fzf'
+Plug 'junegunn/fzf', {'do': { -> fzf#install() }}
 Plug 'junegunn/fzf.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-surround'
