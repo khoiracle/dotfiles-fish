@@ -16,6 +16,11 @@ Plug 'vim-airline/vim-airline'
 call plug#end()
 
 """ fzf key bindings
+command! -bang -nargs=* Rg
+  \ call fzf#vim#grep(
+  \   'rg --hidden --column --line-number --no-heading --color=always --smart-case -- '.shellescape(<q-args>), 1,
+  \   fzf#vim#with_preview(), <bang>0)
+
 nnoremap <silent> <Leader><Space> :Files<CR>
 nnoremap <silent> <Leader>f :Rg<CR>
 
