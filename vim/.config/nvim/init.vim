@@ -13,7 +13,12 @@ Plug 'tpope/vim-commentary'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'vim-airline/vim-airline'
+Plug 'liuchengxu/vim-which-key'
 call plug#end()
+
+""" vim-which-key
+nnoremap <silent> <leader> :WhichKey '<Space>'<CR>
+set timeoutlen=100
 
 """ fzf key bindings
 command! -bang -nargs=* Rg
