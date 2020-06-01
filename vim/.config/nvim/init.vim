@@ -16,6 +16,9 @@ Plug 'vim-airline/vim-airline'
 Plug 'liuchengxu/vim-which-key'
 call plug#end()
 
+""" leader shortcuts
+nnoremap <silent> <Leader>w :w<CR>
+
 """ vim-which-key
 nnoremap <silent> <leader> :WhichKey '<Space>'<CR>
 set timeoutlen=100
