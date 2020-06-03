@@ -95,6 +95,11 @@ if type "yarn" &> /dev/null; then
     yarn cache clean --force
 fi
 
+if type "nix" &> /dev/null; then
+  echo 'nix-collect-garbage...'
+  nix-collect-garbage -d
+fi
+
 echo 'Purge inactive memory...'
 sudo purge
 
