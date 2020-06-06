@@ -13,6 +13,8 @@ cask "sf-symbols"
 cask "hammerspoon"
 cask "Alacritty"
 cask "bitbar"
+cask "caldigit-docking-utility"
+cask "caldigit-thunderbolt-charging"
 
 # GUI apps from Appstore
 mas "1Password", id: 1333542190
