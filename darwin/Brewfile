@@ -12,6 +12,7 @@ cask "vlc"
 cask "sf-symbols"
 cask "hammerspoon"
 cask "Alacritty"
+cask "bitbar"
 
 # GUI apps from Appstore
 mas "1Password", id: 1333542190
