@@ -1,6 +1,10 @@
 env:
   TERM: xterm-256color
 
+window: 
+  decorations: buttonless
+  startup_mode: Maximized
+
 font:
   size: 14.0
   normal:
