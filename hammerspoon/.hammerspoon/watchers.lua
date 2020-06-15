@@ -4,7 +4,7 @@ function caffeinateFunc(eventType)
     output:setMuted(true)
   end
   if (eventType == hs.caffeinate.watcher.screensDidLock) then 
-    hs.keycodes.currentSourceID("com.apple.keylayout.US")
+    hs.keycodes.currentSourceID("com.apple.keylayout.ABC")
   end
 end
 
@@ -29,8 +29,9 @@ function applicationWatcher(appName, eventType, appObject)
     if (appName == "Finder") then
       appObject:selectMenuItem({"Window", "Bring All to Front"})
     end
-    if (appsRequiresUSInput[appName]) then -- Disable Vietnamese Keyboard
-      hs.keycodes.currentSourceID("com.apple.keylayout.US")
+    if (appsRequiresUSInput[appName]) then 
+      print("Switching to US Layout")
+      hs.keycodes.currentSourceID("com.apple.keylayout.ABC")
     end
   end
 end
