@@ -19,11 +19,6 @@ antigen bundle mafredri/zsh-async
 
 antigen apply
 
-# Use ESC to edit the current command line:
-autoload -U edit-command-line
-zle -N edit-command-line
-bindkey '\033' edit-command-line
-
 # Aliases
 alias o="open"
 
