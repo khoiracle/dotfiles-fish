@@ -15,6 +15,7 @@ cask "Alacritty"
 cask "bitbar"
 cask "caldigit-docking-utility"
 cask "caldigit-thunderbolt-charging"
+cask "paletro"
 
 # GUI apps from Appstore
 mas "1Password", id: 1333542190
