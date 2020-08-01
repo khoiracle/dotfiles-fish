@@ -15,6 +15,7 @@
         go
         htop
         jq
+        m-cli
         neovim
         nodejs
         parallel
