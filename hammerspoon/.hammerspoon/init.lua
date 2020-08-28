@@ -19,6 +19,10 @@ hs.loadSpoon("ReloadConfiguration")
 spoon.ReloadConfiguration:start()
 
 -- Window management bindings
+hs.hotkey.bind(hyper, "1", hs.fnutils.partial(moveWindow, 0, 0, 0.5, 0.5))
+hs.hotkey.bind(hyper, "2", hs.fnutils.partial(moveWindow, 0.5, 0, 0.5, 0.5))
+hs.hotkey.bind(hyper, "3", hs.fnutils.partial(moveWindow, 0, 0.5, 0.5, 0.5))
+hs.hotkey.bind(hyper, "4", hs.fnutils.partial(moveWindow, 0.5, 0.5, 0.5, 0.5))
 hs.hotkey.bind(hyper, "h", hs.fnutils.partial(moveWindow, 0, 0, 0.5, 1))
 hs.hotkey.bind(hyper, "j", hs.fnutils.partial(moveWindow, 0, 0.5, 1, 0.5))
 hs.hotkey.bind(hyper, "k", hs.fnutils.partial(moveWindow, 0, 0, 1, 0.5))
