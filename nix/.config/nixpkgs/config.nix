@@ -11,6 +11,7 @@
         git
         gitAndTools.git-extras
         gitAndTools.hub
+        gitAndTools.gh
         gnupg
         go
         htop
