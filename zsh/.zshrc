@@ -46,6 +46,11 @@ if type nvim > /dev/null; then
   alias vim="nvim"
 fi
 
+# Github CLI
+if type gh > /dev/null; then
+  eval "$(gh completion -s zsh)"
+fi
+
 # fzf
 if [ -n "${commands[fzf-share]}" ]; then
   source "$(fzf-share)/key-bindings.zsh"
