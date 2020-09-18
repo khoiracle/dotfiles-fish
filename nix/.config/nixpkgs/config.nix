@@ -6,6 +6,7 @@
       paths = [
         aria2
         cmake
+        fd
         ffmpeg
         fzf
         git
