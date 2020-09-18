@@ -1,5 +1,9 @@
+# Taps
+tap "d12frosted/emacs-plus"
+
 # Non-nixpkgs tools
 brew "mas"
+brew "emacs-plus"
 
 # GUI apps
 cask "google-chrome"
