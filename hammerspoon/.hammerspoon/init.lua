@@ -11,7 +11,8 @@ shiftHyper = {"ctrl", "alt" , "shift"}
 appsRequiresUSInput = { 
   ['Alacritty']= true, 
   ['Terminal']= true, 
-  ['Xcode']= true 
+  ['Xcode']= true,
+  ['Emacs']= true
 }
 
 -- Spoons
