@@ -26,8 +26,7 @@
 ;; `load-theme' function. This is the default:
 (setq doom-theme 'doom-gruvbox)
 
-;; If you use `org' and don't want your org files in the default location below,
-;; change `org-directory'. It must be set before org loads!
+;; Org MODE
 (setq org-directory "~/Documents/org"
       org-catch-invisible-edits 'smart
       org-log-done 'time
