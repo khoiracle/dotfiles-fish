@@ -20,6 +20,9 @@ cask "bitbar"
 cask "caldigit-docking-utility"
 cask "caldigit-thunderbolt-charging"
 cask "paletro"
+cask "qlmarkdown"
+cask "quicklook-json"
+cask "qlimagesize"
 
 # GUI apps from Appstore
 mas "1Password", id: 1333542190
