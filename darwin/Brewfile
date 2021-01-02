@@ -17,6 +17,8 @@ cask "hammerspoon"
 cask "Alacritty"
 cask "paletro"
 cask "sublime-merge"
+cask "homebrew/cask-drivers/logitech-options"
+cask "cleanshot"
 
 # GUI apps from Appstore
 mas "1Password", id: 1333542190
