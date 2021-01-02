@@ -67,6 +67,15 @@ if type starship > /dev/null; then
   eval "$(starship init zsh)"
 fi
 
+# nix aliases
+if type nix > /dev/null; then
+  alias nixre="darwin-rebuild switch"
+  alias nixgc="nix-collect-garbage -d"
+  alias nixq="nix-env -qaP"
+  alias nixup="nix-env -u"
+  alias nixcfg="vi ~/.nixpkgs/darwin-configuration.nix"
+fi
+
 # ghq https://github.com/x-motemen/ghq
 export GHQ_ROOT=~/code
 

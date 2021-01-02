@@ -1,11 +1,10 @@
-# Taps
-tap "d12frosted/emacs-plus"
-
 # Non-nixpkgs tools
 brew "mas"
-brew "emacs-plus"
+brew "robotsandpencils/made/xcodes"
+brew "stow"
 
 # GUI apps
+cask "visual-studio-code"
 cask "google-chrome"
 cask "dash"
 cask "alfred"
@@ -16,18 +15,10 @@ cask "vlc"
 cask "sf-symbols"
 cask "hammerspoon"
 cask "Alacritty"
-cask "bitbar"
-cask "caldigit-docking-utility"
-cask "caldigit-thunderbolt-charging"
 cask "paletro"
-cask "qlmarkdown"
-cask "quicklook-json"
-cask "qlimagesize"
 
 # GUI apps from Appstore
 mas "1Password", id: 1333542190
-mas "Moom", id: 747648890
 mas "Telegram", id: 747648890
 mas "The Unarchiver", id: 425424353
-mas "Xcode", id: 497799835
 mas "Slack", id: 803453959
