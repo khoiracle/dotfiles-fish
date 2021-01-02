@@ -58,9 +58,13 @@
     pkgs.vim
     pkgs.youtube-dl
     pkgs.zsh
+
   ];
 
-  programs.zsh.enable = true; # default shell on catalina
+  # Create /etc/bashrc that loads the nix-darwin environment.
+  programs.bash.enable = true;
+  programs.zsh.enable = true;
+  programs.fish.enable = true;
 
   # Used for backwards compatibility, please read the changelog before changing.
   # $ darwin-rebuild changelog
