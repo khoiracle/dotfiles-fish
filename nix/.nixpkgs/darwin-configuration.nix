@@ -33,6 +33,7 @@
     pkgs._1password
     pkgs.aria2
     pkgs.cmake
+    pkgs.entr
     pkgs.fd
     pkgs.ffmpeg
     pkgs.fzf
@@ -58,7 +59,6 @@
     pkgs.vim
     pkgs.youtube-dl
     pkgs.zsh
-
   ];
 
   # Create /etc/bashrc that loads the nix-darwin environment.
