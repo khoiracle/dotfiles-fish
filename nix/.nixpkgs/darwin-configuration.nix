@@ -32,7 +32,6 @@
   environment.systemPackages = [
     pkgs._1password
     pkgs.aria2
-    pkgs.bundler
     pkgs.cmake
     pkgs.cocoapods
     pkgs.entr
