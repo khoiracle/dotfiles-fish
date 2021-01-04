@@ -33,7 +33,6 @@
     pkgs._1password
     pkgs.aria2
     pkgs.cmake
-    pkgs.cocoapods
     pkgs.entr
     pkgs.fd
     pkgs.ffmpeg
