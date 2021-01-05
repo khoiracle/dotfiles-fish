@@ -11,6 +11,7 @@
   system.defaults.dock.minimize-to-application = true;
   system.defaults.dock.mru-spaces = false;
   system.defaults.dock.showhidden = true;
+  system.defaults.dock.show-recents = false;
   system.defaults.finder._FXShowPosixPathInTitle = true;
   system.defaults.finder.AppleShowAllExtensions = true;
   system.defaults.finder.FXEnableExtensionChangeWarning = false;
