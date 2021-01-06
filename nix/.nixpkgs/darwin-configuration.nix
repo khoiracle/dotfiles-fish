@@ -50,7 +50,7 @@
     pkgs.parallel
     pkgs.reattach-to-user-namespace
     pkgs.ripgrep
-    (pkgs.python37.withPackages (ps: with ps; [ pip setuptools ]))
+    (pkgs.python37.withPackages (ps: with ps; [ pip setuptools jupyter ]))
     pkgs.ruby
     pkgs.starship
     pkgs.stow
