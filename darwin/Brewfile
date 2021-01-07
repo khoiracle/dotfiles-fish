@@ -5,7 +5,7 @@ brew "stow"
 
 # GUI apps
 cask "visual-studio-code"
-cask "google-chrome"
+cask "chromium"
 cask "dash"
 cask "alfred"
 cask "adguard"
@@ -26,3 +26,4 @@ mas "1Password", id: 1333542190
 mas "Telegram", id: 747648890
 mas "The Unarchiver", id: 425424353
 mas "Slack", id: 803453959
+mas "Grammarly for Safari", id: 1462114288
