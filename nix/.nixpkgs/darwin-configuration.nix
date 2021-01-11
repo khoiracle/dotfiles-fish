@@ -47,6 +47,7 @@
     pkgs.jq
     pkgs.neovim
     pkgs.nodejs
+    pkgs.nox
     pkgs.parallel
     pkgs.reattach-to-user-namespace
     pkgs.ripgrep
