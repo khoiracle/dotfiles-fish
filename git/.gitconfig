@@ -21,3 +21,5 @@
   autostash = true
 [include]
   path = ~/.gitconfig.local
+[ghq]
+  root = ~/code
