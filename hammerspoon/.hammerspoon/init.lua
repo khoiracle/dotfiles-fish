@@ -12,7 +12,8 @@ appsRequiresUSInput = {
   ['Alacritty']= true, 
   ['Terminal']= true, 
   ['Xcode']= true,
-  ['Emacs']= true
+  ['Emacs']= true,
+  ['Code']= true,
 }
 
 -- Spoons
