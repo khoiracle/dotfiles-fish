@@ -54,17 +54,17 @@ parse_params "$@"
 issue_number=${args[0]}
 msg "Issue ${args[0]}"
 
-echo "Checking out"
+echo "🏨 Checking out"
 gh pr checkout $issue_number
 
-echo "Pulling"
+echo "⬇️ Pulling"
 git pull --ff-only origin $(git branch --show-current)
 
-echo "Update to master branch if needed"
+echo "🐙 Update to master branch if needed"
 git pull --no-ff --no-edit origin master
 
-echo "Pushing the merge commit"
+echo "⬆️ Pushing the merge commit"
 git push origin $(git branch --show-current)
 
-echo "Wating for CI and merge"
+echo "⏰ Wating for CI and merge"
 until gh pr merge $issue_number -s; do sleep 15; done
