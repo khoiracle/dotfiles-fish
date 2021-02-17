@@ -54,6 +54,9 @@ parse_params "$@"
 issue_number=${args[0]}
 msg "Issue ${args[0]}"
 
+echo "🟩 Reset git to clean state"
+git reset --hard && git clean -xfd
+
 echo "🏨 Checking out"
 gh pr checkout $issue_number
 
