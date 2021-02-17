@@ -60,13 +60,13 @@ git reset --hard
 echo "🏨 Checking out"
 gh pr checkout $issue_number
 
-echo "⬇️ Pulling"
+echo "👇 Pulling"
 git pull --ff-only origin $(git branch --show-current)
 
 echo "🐙 Update to master branch if needed"
 git pull --no-ff --no-edit origin master
 
-echo "⬆️ Pushing the merge commit"
+echo "👆 Pushing the merge commit"
 git push origin $(git branch --show-current)
 
 echo "⏰ Wating for CI and merge"
