@@ -54,6 +54,9 @@ parse_params "$@"
 issue_number=${args[0]}
 msg "Issue ${args[0]}"
 
+echo "✅ Approving the PR"
+gh pr review -a $issue_number
+
 echo "🟩 Reset git to clean state"
 git reset --hard
 
