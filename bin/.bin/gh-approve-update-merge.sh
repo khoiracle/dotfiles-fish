@@ -55,7 +55,7 @@ issue_number=${args[0]}
 msg "Issue ${args[0]}"
 
 echo "✅ Approving the PR"
-gh pr review -a $issue_number
+gh pr review -a $issue_number || echo "🪞 Narcissism?"
 
 echo "🟩 Reset git to clean state"
 git reset --hard
