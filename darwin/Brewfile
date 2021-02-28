@@ -1,13 +1,13 @@
 # GUI apps
 cask "visual-studio-code"
-cask "chromium"
+cask "google-chrome"
 cask "dash"
 cask "alfred"
 cask "adguard"
 cask "jetbrains-toolbox"
 cask "homebrew/cask-fonts/font-jetbrains-mono"
 cask "vlc"
-cask "sf-symbols"
+cask "sf-symbols" 
 cask "hammerspoon"
 cask "Alacritty"
 cask "paletro"
@@ -15,7 +15,6 @@ cask "sublime-merge"
 cask "homebrew/cask-drivers/logitech-options"
 cask "cleanshot"
 cask "proxyman"
-cask "backblaze"
 
 # GUI apps from Appstore
 mas "1Password", id: 1333542190
@@ -23,3 +22,4 @@ mas "Telegram", id: 747648890
 mas "The Unarchiver", id: 425424353
 mas "Slack", id: 803453959
 mas "Grammarly for Safari", id: 1462114288
+mas "Bear", id: 1091189122
