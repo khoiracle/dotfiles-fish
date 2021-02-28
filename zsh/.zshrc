@@ -59,8 +59,9 @@ if [ -n "${commands[fzf-share]}" ]; then
   export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 fi
 
-# homebrew no update
+# homebrew
 export HOMEBREW_NO_AUTO_UPDATE=1
+[ -x /opt/homebrew/bin/brew ] && eval $(/opt/homebrew/bin/brew shellenv)
 
 # starship
 if type starship > /dev/null; then

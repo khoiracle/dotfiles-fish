@@ -1,8 +1,3 @@
-# Non-nixpkgs tools
-brew "mas"
-brew "robotsandpencils/made/xcodes"
-brew "stow"
-
 # GUI apps
 cask "visual-studio-code"
 cask "chromium"
