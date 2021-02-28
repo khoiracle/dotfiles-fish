@@ -47,6 +47,7 @@
     pkgs.ghq
     pkgs.htop
     pkgs.jq
+    pkgs.mosh
     pkgs.neovim
     pkgs.nodejs
     pkgs.nox
