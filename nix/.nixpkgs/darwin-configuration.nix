@@ -44,6 +44,7 @@
     pkgs.gitAndTools.git-extras
     pkgs.gnupg
     pkgs.go
+    pkgs.ghq
     pkgs.htop
     pkgs.jq
     pkgs.neovim
