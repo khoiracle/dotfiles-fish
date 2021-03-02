@@ -3,6 +3,18 @@
 {
   nixpkgs.config.allowUnfree = true;
 
+  system.defaults.LaunchServices.LSQuarantine = false;
+  system.defaults.NSGlobalDomain.ApplePressAndHoldEnabled = false;
+  system.defaults.NSGlobalDomain.AppleShowAllExtensions = true;
+  system.defaults.NSGlobalDomain.InitialKeyRepeat = 10;
+  system.defaults.NSGlobalDomain.KeyRepeat = 1;
+  system.defaults.NSGlobalDomain.NSAutomaticCapitalizationEnabled = false;
+  system.defaults.NSGlobalDomain.NSAutomaticPeriodSubstitutionEnabled = false;
+  system.defaults.NSGlobalDomain.NSAutomaticQuoteSubstitutionEnabled = false;
+  system.defaults.NSGlobalDomain.NSAutomaticSpellingCorrectionEnabled = false;
+  system.defaults.NSGlobalDomain.NSNavPanelExpandedStateForSaveMode = true;
+  system.defaults.NSGlobalDomain.NSNavPanelExpandedStateForSaveMode2 = true;
+  system.defaults.NSGlobalDomain.NSWindowResizeTime = "0.001";
   system.defaults.dock.autohide = true;
   system.defaults.dock.autohide-delay = "0";
   system.defaults.dock.autohide-time-modifier = "0";
@@ -10,22 +22,13 @@
   system.defaults.dock.mineffect = "scale";
   system.defaults.dock.minimize-to-application = true;
   system.defaults.dock.mru-spaces = false;
-  system.defaults.dock.showhidden = true;
   system.defaults.dock.show-recents = false;
+  system.defaults.dock.showhidden = true;
   system.defaults.dock.static-only = true;
-  system.defaults.finder._FXShowPosixPathInTitle = true;
   system.defaults.finder.AppleShowAllExtensions = true;
   system.defaults.finder.FXEnableExtensionChangeWarning = false;
   system.defaults.finder.QuitMenuItem = true;
-  system.defaults.LaunchServices.LSQuarantine = false;
-  system.defaults.NSGlobalDomain.ApplePressAndHoldEnabled = false;
-  system.defaults.NSGlobalDomain.AppleShowAllExtensions = true;
-  system.defaults.NSGlobalDomain.InitialKeyRepeat = 10;
-  system.defaults.NSGlobalDomain.KeyRepeat = 1;
-  system.defaults.NSGlobalDomain.NSAutomaticSpellingCorrectionEnabled = false;
-  system.defaults.NSGlobalDomain.NSNavPanelExpandedStateForSaveMode = true;
-  system.defaults.NSGlobalDomain.NSNavPanelExpandedStateForSaveMode2 = true;
-  system.defaults.NSGlobalDomain.NSWindowResizeTime = "0.001";
+  system.defaults.finder._FXShowPosixPathInTitle = true;
   system.defaults.screencapture.location = "~/Desktop";
   system.keyboard.enableKeyMapping = true;
   system.keyboard.remapCapsLockToControl = true;
