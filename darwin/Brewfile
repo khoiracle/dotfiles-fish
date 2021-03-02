@@ -14,9 +14,9 @@ cask "paletro"
 cask "sublime-merge"
 cask "cleanshot"
 cask "proxyman"
+cask "camo-studio"
 
 # GUI apps from Appstore
-mas "1Password", id: 1333542190
 mas "Telegram", id: 747648890
 mas "The Unarchiver", id: 425424353
 mas "Slack", id: 803453959
