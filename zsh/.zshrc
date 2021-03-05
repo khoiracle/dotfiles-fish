@@ -60,6 +60,7 @@ if [ -n "${commands[fzf-share]}" ]; then
 fi
 
 # homebrew
+export HOMEBREW_NO_ANALYTICS=1
 export HOMEBREW_NO_AUTO_UPDATE=1
 export HOMEBREW_VERBOSE=1
 [ -x /opt/homebrew/bin/brew ] && eval $(/opt/homebrew/bin/brew shellenv)
