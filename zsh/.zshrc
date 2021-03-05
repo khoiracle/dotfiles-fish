@@ -86,5 +86,5 @@ export GHQ_ROOT=~/code
 export PATH=~/npm_packages/bin:$PATH
 
 # m1 arch alias
-alias arm="env /usr/bin/arch -arm64 /bin/zsh --login"
-alias intel="env /usr/bin/arch -x86_64 /bin/zsh --login"
+alias arm="env /usr/bin/arch -arm64"
+alias intel="env /usr/bin/arch -x86_64"
