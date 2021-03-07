@@ -4,6 +4,7 @@
   nixpkgs.config.allowUnfree = true;
 
   system.defaults.LaunchServices.LSQuarantine = false;
+  system.defaults.NSGlobalDomain."com.apple.mouse.tapBehavior" = 1;
   system.defaults.NSGlobalDomain.ApplePressAndHoldEnabled = false;
   system.defaults.NSGlobalDomain.AppleShowAllExtensions = true;
   system.defaults.NSGlobalDomain.InitialKeyRepeat = 10;
