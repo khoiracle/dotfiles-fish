@@ -41,3 +41,6 @@ hs.hotkey.bind(hyper, 'c', hs.fnutils.partial(toggleApplication, "Google Chrome"
 hs.hotkey.bind(hyper, 'x', hs.fnutils.partial(toggleApplication, "Xcode"))
 hs.hotkey.bind(hyper, 'f', hs.fnutils.partial(toggleApplication, "Finder"))
 hs.hotkey.bind(hyper, 't', hs.fnutils.partial(toggleApplication, "Telegram"))
+hs.hotkey.bind(hyper, 'd', function()
+  hs.execute("open ~/Downloads")
+end)
