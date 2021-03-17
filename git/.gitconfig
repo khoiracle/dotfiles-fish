@@ -19,7 +19,11 @@
 [rebase]
   autosquash = true
   autostash = true
-[include]
-  path = ~/.gitconfig.local
+[user]
+  name = khoi
+  email = git@khoi.io
+	signingkey = F47C65E640FCC9C5
+[commit]
+	gpgsign = true
 [ghq]
   root = ~/code
