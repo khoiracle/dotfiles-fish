@@ -30,6 +30,8 @@ Temporary Items
 
 # Bundler
 vendor/
+.bundle/
 
 # tmp
 tmp/
+
