@@ -3,7 +3,7 @@
 if [ -z "$1" ] 
 then
     echo "No argument supplied"
-    echo "Example: find . -type f -name \"*.MP4\" -o -name \"*.mp4\" | parallel generate-thumbnail.sh"
+    echo "Example: fd -e mov -e mp4 | parallel generate-thumbnail.sh"
     exit 1
 fi
 
