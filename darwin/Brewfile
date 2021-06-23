@@ -1,3 +1,25 @@
+# CLI
+brew "aria2"
+brew "entr"
+brew "fd"
+brew "ffmpeg"
+brew "fzf"
+brew "git"
+brew "gh"
+brew "git-extras"
+brew "go"
+brew "htop"
+brew "jq"
+brew "nodejs"
+brew "parallel"
+brew "ripgrep"
+brew "python@3.9"
+brew "starship"
+brew "stow"
+brew "tldr"
+brew "youtube-dl"
+brew "zsh"
+
 # GUI apps
 cask "visual-studio-code"
 cask "google-chrome"
@@ -15,6 +37,7 @@ cask "sublime-merge"
 cask "cleanshot"
 cask "proxyman"
 cask "camo-studio"
+cask "gpg-suite-no-mail"
 
 # GUI apps from Appstore
 mas "Telegram", id: 747648890
