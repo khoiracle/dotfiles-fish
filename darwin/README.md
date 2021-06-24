@@ -1,2 +1,0 @@
-- .macos contains tweaks and can be run directly
-- `brew bundle` to install stuff in `Brewfile`
