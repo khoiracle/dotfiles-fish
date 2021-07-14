@@ -27,3 +27,5 @@
 	gpgsign = true
 [ghq]
   root = ~/code
+[init]
+	defaultBranch = main
